@@ -1,15 +1,4 @@
-﻿<!-- EF MOD vessel_data is the big wrapper for all the vessel objects -->
-<!-- Mod v1.2 -->
-<!-- 
-EF Mod by Davis Whitley
-
-V1.0 - making EF mod  Made pirates first, added advanced longbow and Toranado along with edited TSN vessles to be "retired".  also edited pirate vessles for mod and story lines.
-
-V1.1 - edit because of bug found  removed transport and shoshushen station mod.  found that shoshushesn station was causing crash during ship selection. 
-
-V1.2 - Edited Pirate ships information to better equlize the play between ships, Brought back Ximni, Brought back transport.  Added more notes to clear up information through out the vesselData file. 
-
--->
+﻿<!-- vessel_data is the big wrapper for all the vessel objects -->
 <vessel_data version="2.6">
 
   <hullRace ID="0" name="TSN" keys="player">

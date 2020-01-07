@@ -1,5 +1,5 @@
 ***Mod updates***
-EF Mod by Davis Whitley
+EF Mod by Davis Whitley, Updated by Starry
 
 V1.0 - making EF mod  Made pirates first, added advanced longbow and Toranado along with edited TSN vessles to be "retired".  also edited pirate vessles for mod and story lines.
 
@@ -9,4 +9,6 @@ V1.2 - Edited Pirate ships information to better equlize the play between ships,
 
 V2.0 - added Vintacon
 
-V2.1 (current) - added jump gates, added planets
+V2.1 - added jump gates, added planets
+
+V2.2 - cleared some extraneous files
