@@ -610,7 +610,7 @@
     <carrierload baycount="2" />
   </vessel> 
   
-  <vessel    uniqueID="19"    side="8"       classname="Pirate Bulk Cargo" broadType="cargo player tsnbenbulkcargo">
+  <vessel    uniqueID="19"    side="8"       classname="Pirate Bulk Cargo" broadType="player">
     <art     meshfile="EFM/pirate_cargo_vessel.dxs"    diffuseFile="EFM/Pirate_cargo_vessel_color.png"
              glowFile="EFM/Pirate_cargo_vessel_glow.png"    specularFile="EFM/Pirate_cargo_vessel_spec.png" scale="0.4" pushRadius="150"/>
     <shields front="30" back="30"/>
@@ -639,7 +639,7 @@
     <carrierload baycount="2" />
   </vessel>
  
-  <vessel    uniqueID="20"    side="8"       classname="Pirate Science Vessel" broadType="science player tsnbensciencevessel">
+  <vessel    uniqueID="20"    side="8"       classname="Pirate Science Vessel" broadType="player">
       <art     meshfile="EFM/pirate_science-vessel.dxs"    diffuseFile="dat/Science_Vessel_color.png"
                glowFile="dat/Science_Vessel_glow.png"    specularFile="dat/Science_Vessel_spec.png" scale="0.32" pushRadius="150"/>
       <shields front="25" back="25"/>
@@ -660,8 +660,7 @@
   </vessel>
    
   
-    <!-- *******************Ships added from BEN's MOD 11-14******************* -->
-  <vessel    uniqueID="21"    side="0"       classname="Science Vessel" broadType="science player tsnbensciencevessel"> <!-- copyed from bens mod pre 2020 -->
+  <vessel    uniqueID="21"    side="0"       classname="Science Vessel" broadType="player">
     <art     meshfile="dat/science-vessel.dxs"    diffuseFile="dat/Science_Vessel_color.png"
              glowFile="dat/Science_Vessel_glow.png"    specularFile="dat/Science_Vessel_spec.png" scale="0.32" pushRadius="150"/>
     <shields front="30" back="30"/>
@@ -680,7 +679,7 @@
   
    
   
-  <vessel    uniqueID="22"    side="0"       classname="Luxury Liner" broadType="luxury player tsnbenluxuryliner">
+  <vessel    uniqueID="22"    side="0"       classname="Luxury Liner" broadType="player">
       <!-- TSN Luxury Liner -->
       <art     meshfile="dat/luxury-vessel.dxs"    diffuseFile="dat/leisure_vessel_color.png"
       glowFile="dat/leisure_vessel_glow.png"    specularFile="dat/leisure_vessel_spec.png" scale="0.3" pushRadius="150"/>
@@ -697,7 +696,7 @@
       <long_desc text="An unarmed travelling playground of the rich and powerful.^Shields Front 30 Rear 30"/>
   </vessel>
   
-  <vessel    uniqueID="23"    side="0"       classname="Bulk Cargo" broadType="cargo player tsnbenbulkcargo">
+  <vessel    uniqueID="23"    side="0"       classname="Bulk Cargo" broadType="player">
       <!-- TSN Bulk Cargo -->
       <art     meshfile="dat/cargo_vessel.dxs"    diffuseFile="dat/cargo_vessel_color.png"
       glowFile="dat/cargo_vessel_glow.png"    specularFile="dat/cargo_vessel_spec.png" scale="0.4" pushRadius="150"/>
@@ -716,9 +715,7 @@
       <long_desc text="An unarmed bulk freighter, slowly moving cheap cargo between the stars.^Shields Front 30 Rear 30"/>
   </vessel>
   
-  <!-- Transport Ship-->
-  
-   <vessel    uniqueID="24"    side="0"       classname="Transport" broadType="transport player tsnbentransport">
+   <vessel    uniqueID="24"    side="0"       classname="Transport" broadType="player">
       <art     meshfile="dat/transport-vessel.dxs"    diffuseFile="dat/transport_vessel_color.png"
       glowFile="dat/transport_vessel_glow.png"    specularFile="dat/transport_vessel_spec.png" scale="0.2" pushRadius="150"/>
       <shields front="80" back="80"/>
