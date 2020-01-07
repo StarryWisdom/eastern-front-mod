@@ -18,10 +18,11 @@ create_zip () {
 	zip -qr "$zipName".zip "$zipName"
 }
 
+# checks and creates the zip being created at $1
 check_and_create () {
-	dir=$1
+	dir="$1"
 
-	old_dir=$PWD
+	old_dir="$PWD"
 	cd "$dir"
 
 	check_tmp
@@ -33,5 +34,4 @@ check_and_create () {
 build_loc="_build/EF MOD"
 mkdir -p "$build_loc"
 rsync -aWSH mod-files/ "$build_loc"
-
 check_and_create "$build_loc"
