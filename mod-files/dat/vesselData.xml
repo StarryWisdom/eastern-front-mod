@@ -495,7 +495,7 @@
     <engine_port x="-175.28" y="-47.70" z="-219.93"/>
     <engine_port x=" 175.28" y="-47.70" z="-219.93"/>
     <long_desc text="Pirate Strongbow^Pirate raider.^4 forward beams^2 Torpedo tubes^Stores for 12 homing, 2 Nukes, 4 Mines, 12 EMP, 8 PShock."/>
-	<carrierload baycount="1" />
+    <carrierload baycount="1" />
   </vessel>
 
    <vessel    uniqueID="15"    side="8"       classname="Longbow" broadType="player">
@@ -561,7 +561,7 @@
     <shields front="20" back="15"/>
     <performance turnrate="0.0065" topspeed="1.0" shipefficiency="0.6" warpefficiency="0.3" jumpefficiency="1.2"/>
     <beam_port x="0.00" y="-31.27" z="287.07" damage="0.5" playerdamage="1.5" arcwidth="0.4" cycletime="4.5" range="800"/>
-	<beam_port x="0.00" y="-31.27" z="287.07" damage="1.0" playerdamage="6.5" arcwidth="0.1" cycletime="4.5" range="1100"/>
+    <beam_port x="0.00" y="-31.27" z="287.07" damage="1.0" playerdamage="6.5" arcwidth="0.1" cycletime="4.5" range="1100"/>
     <torpedo_tube x="0" y="63.71" z="-33.23"/>
     <torpedo_storage type="trp" amount="8"/>  <!-- Homing"-->
     <torpedo_storage type="nuk" amount="0"/>  <!-- LR Nuke-->
@@ -578,7 +578,6 @@
     <long_desc text="Pirate Advanced Longbow^A modified Pirate Longbow designed for scouting, high-speed interception and strafing runs..^2 Fast Fire beam^1 Torpedo tube^Stores for 8 homing, 2 Mine, 2 EMP, 8 PShock."/>
   </vessel>
   
-<!-- Toranado EF MOD addon -->
      <vessel    uniqueID="18"    side="8"       classname="Toranado" broadType="player">
     <art     meshfile="dat/PirateStrongbow.dxs"    diffuseFile="EFM/PirateBulky_Diffuse2.png"
              glowFile="EFM/PirateBulky_Glow2.png"    specularFile="EFM/PirateBulky_Specular2.png" scale="0.20" pushRadius="150"/>
@@ -586,11 +585,11 @@
     <shields front="80" back="60"/>
     <performance turnrate="0.0065" topspeed="0.6" shipefficiency="1.0" warpefficiency="1.1" jumpefficiency="1.25"/>
     <beam_port x="0.0" y="44.0" z="0.0" damage="0.5" playerdamage="1" arcwidth="1" cycletime="0.5" range="500"/><!-- Top 360 beam -->
-	<beam_port x="0.0" y="-22.0" z="0.0" damage="0.5" playerdamage="1" arcwidth="1" cycletime="0.5" range="500"/><!-- Bottom 360 Beam -->
-	<beam_port x="0.0" y="0.0" z="256.0" damage="20" playerdamage="40" arcwidth="0.2" cycletime="15.0" range="2000"/><!-- Big beam -->
+    <beam_port x="0.0" y="-22.0" z="0.0" damage="0.5" playerdamage="1" arcwidth="1" cycletime="0.5" range="500"/><!-- Bottom 360 Beam -->
+    <beam_port x="0.0" y="0.0" z="256.0" damage="20" playerdamage="40" arcwidth="0.2" cycletime="15.0" range="2000"/><!-- Big beam -->
     <torpedo_tube x="0" y="63.71" z="-33.23"/>
     <torpedo_tube x="0" y="63.71" z="-33.23"/>
-	<torpedo_tube x="0" y="63.71" z="-33.23"/>
+    <torpedo_tube x="0" y="63.71" z="-33.23"/>
     <torpedo_tube x="0" y="63.71" z="-33.23"/>
     <torpedo_storage type="trp" amount="20"/>  <!-- Homing"-->
     <torpedo_storage type="nuk" amount="8"/>  <!-- LR Nuke-->
@@ -608,27 +607,26 @@
     <engine_port x="-175.28" y="-47.70" z="-219.93"/>
     <engine_port x=" 175.28" y="-47.70" z="-219.93"/>
     <long_desc text="Pirate Missile Cruiser^Pirate raider.^2 360 beams ^1 Heavy Artillery Beam ^4 Torpedo tubes^Stores for 20 homing, 8 nukes, 14 Mines, 12 EMP, 6 PShock, 2 Beacon, 2 Probe, 2 Tag."/>
-	<carrierload baycount="2" />
+    <carrierload baycount="2" />
   </vessel> 
   
-  <!-- Pirate Bulk Cargo EF Mod addon -->
-    <vessel    uniqueID="19"    side="8"       classname="Pirate Bulk Cargo" broadType="cargo player tsnbenbulkcargo">
-      <art     meshfile="EFM/pirate_cargo_vessel.dxs"    diffuseFile="EFM/Pirate_cargo_vessel_color.png"
-      glowFile="EFM/Pirate_cargo_vessel_glow.png"    specularFile="EFM/Pirate_cargo_vessel_spec.png" scale="0.4" pushRadius="150"/>
-      <shields front="30" back="30"/>
-      <internal_data file="EFM/pirate_cargo-vessel.snt"/>
-      <performance turnrate="0.002" topspeed="0.4" shipefficiency="0.8" warpefficiency="1.2" jumpefficiency="1.5"/>
-	 <beam_port x="2" y="4" z="6" damage=".25" playerdamage=".5" arcwidth="1.0" cycletime="1.0" range="1000"/>
-      <fleet_ai commonality="100"/>
-      <engine_port x="-36.569798" y="1.519395" z="-261.916901"/>
-      <engine_port x="-63.478695" y="1.709533" z="-240.778183"/>
-      <engine_port x="-91.280312" y="2.732927" z="-226.381104"/>
-      <engine_port x="-91.280312" y="2.732927" z="-226.381104"/>
-      <engine_port x="36.569798" y="1.519395" z="-261.916901"/>
-      <engine_port x="63.478695" y="1.709533" z="-240.778183"/>
-      <engine_port x="91.280312" y="2.732927" z="-226.381104"/>
-      <engine_port x="91.280312" y="2.732927" z="-226.381104"/>
-	 <torpedo_tube x="0" y="63.71" z="-33.23"/>
+  <vessel    uniqueID="19"    side="8"       classname="Pirate Bulk Cargo" broadType="cargo player tsnbenbulkcargo">
+    <art     meshfile="EFM/pirate_cargo_vessel.dxs"    diffuseFile="EFM/Pirate_cargo_vessel_color.png"
+             glowFile="EFM/Pirate_cargo_vessel_glow.png"    specularFile="EFM/Pirate_cargo_vessel_spec.png" scale="0.4" pushRadius="150"/>
+    <shields front="30" back="30"/>
+    <internal_data file="EFM/pirate_cargo-vessel.snt"/>
+    <performance turnrate="0.002" topspeed="0.4" shipefficiency="0.8" warpefficiency="1.2" jumpefficiency="1.5"/>
+    <beam_port x="2" y="4" z="6" damage=".25" playerdamage=".5" arcwidth="1.0" cycletime="1.0" range="1000"/>
+    <fleet_ai commonality="100"/>
+    <engine_port x="-36.569798" y="1.519395" z="-261.916901"/>
+    <engine_port x="-63.478695" y="1.709533" z="-240.778183"/>
+    <engine_port x="-91.280312" y="2.732927" z="-226.381104"/>
+    <engine_port x="-91.280312" y="2.732927" z="-226.381104"/>
+    <engine_port x="36.569798" y="1.519395" z="-261.916901"/>
+    <engine_port x="63.478695" y="1.709533" z="-240.778183"/>
+    <engine_port x="91.280312" y="2.732927" z="-226.381104"/>
+    <engine_port x="91.280312" y="2.732927" z="-226.381104"/>
+    <torpedo_tube x="0" y="63.71" z="-33.23"/>
     <torpedo_storage type="trp" amount="3"/>  <!-- Homing"-->
     <torpedo_storage type="nuk" amount="0"/>  <!-- LR Nuke-->
     <torpedo_storage type="min" amount="0"/>  <!-- Mine"-->
@@ -638,17 +636,16 @@
     <torpedo_storage type="pro" amount="4"/>  <!-- Probe"-->
     <torpedo_storage type="tag" amount="4"/>  <!-- Tag"-->
     <long_desc text="A lightly armed pirate bulk freighter, slowly moving cargo between the stars.^1 360 beam^1 Torpedo tube^Stores for 3 homing, 3 PShock, 4 Beacon, 4 Probe, 4 Tag."/>
-	<carrierload baycount="2" />
+    <carrierload baycount="2" />
   </vessel>
  
-  <!-- Pirate Science Vessel EF Mod addon -->
   <vessel    uniqueID="20"    side="8"       classname="Pirate Science Vessel" broadType="science player tsnbensciencevessel">
       <art     meshfile="EFM/pirate_science-vessel.dxs"    diffuseFile="dat/Science_Vessel_color.png"
-      glowFile="dat/Science_Vessel_glow.png"    specularFile="dat/Science_Vessel_spec.png" scale="0.32" pushRadius="150"/>
+               glowFile="dat/Science_Vessel_glow.png"    specularFile="dat/Science_Vessel_spec.png" scale="0.32" pushRadius="150"/>
       <shields front="25" back="25"/>
       <internal_data file="EFM/pirate_science-vessel.snt"/>
       <performance turnrate="0.0075" topspeed="0.7" shipefficiency=".8" warpefficiency="1.3" jumpefficiency="1.5"/>
-	  <beam_port x="2" y="4" z="7" damage=".25" playerdamage=".5" arcwidth="1.0" cycletime="1.0" range="1000"/>
+      <beam_port x="2" y="4" z="7" damage=".25" playerdamage=".5" arcwidth="1.0" cycletime="1.0" range="1000"/>
       <fleet_ai commonality="100"/>
       <engine_port x="-51" y="-3.155422" z="26.135927"/>
       <engine_port x=" 51" y="-3.155422" z="26.135927"/>
@@ -664,23 +661,21 @@
    
   
     <!-- *******************Ships added from BEN's MOD 11-14******************* -->
-	
-	<vessel    uniqueID="21"    side="0"       classname="Science Vessel" broadType="science player tsnbensciencevessel">
-      <!-- TSN Science -->
-      <art     meshfile="dat/science-vessel.dxs"    diffuseFile="dat/Science_Vessel_color.png"
-      glowFile="dat/Science_Vessel_glow.png"    specularFile="dat/Science_Vessel_spec.png" scale="0.32" pushRadius="150"/>
-      <shields front="30" back="30"/>
-      <internal_data file="Ben/science-vessel.snt"/>
-      <performance turnrate="0.0050" topspeed="0.7"/>
-      <fleet_ai commonality="100"/>
-      <engine_port x="-51" y="-3.155422" z="26.135927"/>
-      <engine_port x=" 51" y="-3.155422" z="26.135927"/>
-      <torpedo_tube x="10" y="8.35" z="258.74"/>
-      <torpedo_tube x="0" y="8.35" z="258.74"/>
-      <torpedo_storage type="bea" amount="18"/>  <!-- Beacon"-->
-      <torpedo_storage type="pro" amount="36"/>  <!-- Probe"-->
-      <torpedo_storage type="tag" amount="24"/>  <!-- Tag"-->
-      <long_desc text="An unarmed, long-range exploration ship. The hull is a Ximni design.^Shields Front 30 Rear 30"/>
+  <vessel    uniqueID="21"    side="0"       classname="Science Vessel" broadType="science player tsnbensciencevessel"> <!-- copyed from bens mod pre 2020 -->
+    <art     meshfile="dat/science-vessel.dxs"    diffuseFile="dat/Science_Vessel_color.png"
+             glowFile="dat/Science_Vessel_glow.png"    specularFile="dat/Science_Vessel_spec.png" scale="0.32" pushRadius="150"/>
+    <shields front="30" back="30"/>
+    <internal_data file="Ben/science-vessel.snt"/>
+    <performance turnrate="0.0050" topspeed="0.7"/>
+    <fleet_ai commonality="100"/>
+    <engine_port x="-51" y="-3.155422" z="26.135927"/>
+    <engine_port x=" 51" y="-3.155422" z="26.135927"/>
+    <torpedo_tube x="10" y="8.35" z="258.74"/>
+    <torpedo_tube x="0" y="8.35" z="258.74"/>
+    <torpedo_storage type="bea" amount="18"/>  <!-- Beacon"-->
+    <torpedo_storage type="pro" amount="36"/>  <!-- Probe"-->
+    <torpedo_storage type="tag" amount="24"/>  <!-- Tag"-->
+    <long_desc text="An unarmed, long-range exploration ship. The hull is a Ximni design.^Shields Front 30 Rear 30"/>
   </vessel>
   
    
@@ -737,7 +732,7 @@
       <engine_port x="136.553009" y="0.466896" z="-261.411255"/>
       <engine_port x="213.412323" y="1.201706" z="-239.373917"/>
       <long_desc text="An unarmed transport, slowly moving cargo between the stars.^Shields Front 80 Rear 80"/>
-	  <carrierload baycount="1" />
+      <carrierload baycount="1" />
   </vessel>
    
 
@@ -888,7 +883,7 @@
     <engine_port x="-13.67" y="4.59" z="-58.62"/>
     <engine_port x=" 13.67" y="4.59" z="-58.62"/>
     <!-- Type 1 Homing"-->
-	<torpedo_storage type="trp" amount="3"/>
+    <torpedo_storage type="trp" amount="3"/>
     <long_desc text="Pirate Stalker^A pirate's fighter.^One fast-fire beam, 3 homing torpedoes."/>
   </vessel>
 
@@ -1257,7 +1252,7 @@
     <performance turnrate="0.025" topspeed=".8"/>
     <fleet_ai commonality="100"/>
     <beam_port x="0" y="0" z="0" damage="1.5" arcwidth="0.1" cycletime="2.0" range="800"/>
-	<drone_port x="0" y="0" z="0" damage="30.0" cycletime="60.0" range="5000"/>
+    <drone_port x="0" y="0" z="0" damage="30.0" cycletime="60.0" range="5000"/>
     <engine_port x="0" y="0" z="-230"/>
     <engine_port x="92" y="-7" z="-240"/>
     <engine_port x="-92" y="-7" z="-240"/>
@@ -1475,27 +1470,19 @@
 
   <vessel    uniqueID="9000"    side="9"       classname="Fighter" broadType="singleseat">
     <art     meshfile="EFM/vintacon_fighter.dxs"    diffuseFile="EFM/stationA_wings_specular.png"
-     scale="0.05" pushRadius="80"/>
-	 
+             scale="0.05" pushRadius="80"/>
     <shields front="15" back="15"/>
-	
     <performance turnrate="0.01" topspeed="1.2"/>
-	
     <fleet_ai commonality="100"/>
-	
     <beam_port x=" 0" y="0" z="0" damage="1" arcwidth="0.3" cycletime="5.0" range="800"/>
     <beam_port x="0" y="0" z="0" damage="1" arcwidth="0.3" cycletime="5.0" range="800"/>
-	
     <engine_port x="-4" y="0" z="-952"/>
     <engine_port x="-154" y="0" z="-413"/>
     <engine_port x="-154" y="0" z="-413"/>
-	
     <impulse_point x="-154" y="0" z="-413"/>
     <impulse_point x=" 1154" y="0" z="-413"/>
-	
     <maneuver_point x="-154" y="0" z="-413"/>
     <maneuver_point x=" 154" y="0" z="-413"/>
-	
     <long_desc text="Unknown vessel"/>
   </vessel>
 
@@ -1505,16 +1492,11 @@
     <art     meshfile="EFM/vintacon_light.dxs"    diffuseFile="EFM/stationA_wings_specular.png"
              scale="0.2" pushRadius="200"/>
     <shields front="120" back="120"/>
-	
     <performance turnrate="0.003" topspeed="0.3"/>
-	
     <fleet_ai commonality="50"/>
-	
     <beam_port x="0" y="0" z="0" damage="5.0" arcwidth="0.3" cycletime="6.0" range="1200"/>
-	
     <engine_port x=" -680" y="0" z="-364"/>
     <engine_port x="-680" y="0" z="-364"/>
-	
     <long_desc text="Unknown Vessel"/>
   </vessel>
 
@@ -1522,25 +1504,18 @@
     <art     meshfile="EFM/vintacon_med.dxs"    diffuseFile="EFM/stationA_wings_specular.png"
              scale="0.4" pushRadius="400"/>
     <shields front="240" back="120"/>
-	
     <performance turnrate="0.0035" topspeed="0.25"/>
-	
     <fleet_ai commonality="25"/>
-	
     <beam_port x="-59" y="0" z="239" damage="1.0" arcwidth="0.3" cycletime="2.0" range="1000"/>
-	<beam_port x="59" y="0" z="239" damage="1.0" arcwidth="0.3" cycletime="2.0" range="1000"/>
-	<beam_port x="-20" y="0" z="265" damage="3.0" arcwidth="0.3" cycletime="6.0" range="1000"/>
-	<beam_port x="20" y="0" z="265" damage="3.0" arcwidth="0.3" cycletime="6.0" range="1000"/>
-	
+    <beam_port x="59" y="0" z="239" damage="1.0" arcwidth="0.3" cycletime="2.0" range="1000"/>
+    <beam_port x="-20" y="0" z="265" damage="3.0" arcwidth="0.3" cycletime="6.0" range="1000"/>
+    <beam_port x="20" y="0" z="265" damage="3.0" arcwidth="0.3" cycletime="6.0" range="1000"/>
     <engine_port x="-131" y="-4" z="-243"/>
     <engine_port x="131" y="-4" z="-243"/>
-	
     <impulse_point x="-157" y="-4" z="-250"/>
     <impulse_point x="157" y="-4" z="-250"/>
-	
     <maneuver_point x="-183" y="24" z="-213"/>
     <maneuver_point x="183" y="24" z="-213"/>
-	
     <long_desc text="Unknown Vessel"/>
   </vessel>
 
@@ -1548,26 +1523,18 @@
     <art     meshfile="EFM/vintacon_lrg.dxs"    diffuseFile="EFM/stationA_wings_specular.png"
              scale="0.8" pushRadius="600"/>
     <shields front="1000" back="1000"/>
-	
     <performance turnrate="0.004" topspeed="0.2"/>
-	
     <fleet_ai commonality="100"/>
-	
     <beam_port x="-2" y="0" z="665" damage="10.0" arcwidth="0.3" cycletime="7.0" range="1500"/>
-	
-	<beam_port x="115" y="0" z="450" damage="2.0" arcwidth="0.3" cycletime="3.0" range="1000"/>
-	<beam_port x="-115" y="0" z="450" damage="2.0" arcwidth="0.3" cycletime="3.0" range="1000"/>
-	<beam_port x="115" y="0" z="450" damage="1.0" arcwidth="0.5" cycletime="1.0" range="600"/>
-	<beam_port x="-115" y="0" z="450" damage="1.0" arcwidth="0.5" cycletime="1.0" range="600"/>
-	
+    <beam_port x="115" y="0" z="450" damage="2.0" arcwidth="0.3" cycletime="3.0" range="1000"/>
+    <beam_port x="-115" y="0" z="450" damage="2.0" arcwidth="0.3" cycletime="3.0" range="1000"/>
+    <beam_port x="115" y="0" z="450" damage="1.0" arcwidth="0.5" cycletime="1.0" range="600"/>
+    <beam_port x="-115" y="0" z="450" damage="1.0" arcwidth="0.5" cycletime="1.0" range="600"/>
     <engine_port x="-372" y="36" z="-696"/>
     <engine_port x="372" y="36" z="-696"/>
-	
     <maneuver_point x="-259" y="20" z="-591"/>
     <maneuver_point x="259" y="20" z="-591"/>
-	
-	<carrierload baycount="15"/>
-	
+    <carrierload baycount="15"/>
     <long_desc text="Unknown Vessel"/>
   </vessel>
 
