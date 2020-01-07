@@ -503,7 +503,6 @@ V1.2 - Edited Pirate ships information to better equlize the play between ships,
     <long_desc text="Pirate Advanced Longbow^A modified Pirate Longbow designed for scouting, high-speed interception and strafing runs..^2 Fast Fire beam^1 Torpedo tube^Stores for 8 homing, 2 Mine, 2 EMP, 8 PShock."/>
   </vessel>
   
-  <!-- Longbow --->
    <vessel    uniqueID="15"    side="8"       classname="Longbow" broadType="player">
     <art     meshfile="dat/PirateLongbow.dxs"    diffuseFile="dat/Pirate_Diffuse.png"
              glowFile="dat/Pirate_Glow.png"    specularFile="dat/Pirate_Specular.png" scale="0.18" pushRadius="150"/>
