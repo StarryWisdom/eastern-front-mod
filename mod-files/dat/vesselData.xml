@@ -734,7 +734,7 @@
              glowFile="dat/LightCruiser_Glow.png"    specularFile="dat/LightCruiser_Specular.png" scale="0.2" pushRadius="50"/>
     <shields front="15" back="15" player="120"/>
     <!-- for fighters, front shield here is actually total HP-->
-    <performance turnrate="0.030" topspeed="0.6" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
+    <performance turnrate="0.030" topspeed="1.05" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
     <beam_port x="0" y="0" z="0" damage="0.3" playerdamage="4" arcwidth="0.1" cycletime="1.0" range="1000"/>
     <engine_port x="-15.533172" y="-3.027038" z="-50.354633"/>
     <engine_port x=" 15.533172" y="-3.027038" z="-50.354633"/>
@@ -752,7 +752,7 @@
              glowFile="dat/LightCruiser_Glow.png"    specularFile="dat/LightCruiser_Specular.png" scale="0.2" pushRadius="50"/>
     <shields front="20" back="15" player="120"/>
     <!-- for fighters, front shield here is actually total HP-->
-    <performance turnrate="0.025" topspeed="0.5" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
+    <performance turnrate="0.025" topspeed="0.875" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
     <beam_port x="0" y="0" z="0" damage="0.3" playerdamage="4" arcwidth="0.1" cycletime="1.0" range="1000"/>
     <engine_port x="-15.533172" y="-3.027038" z="-50.354633"/>
     <engine_port x=" 15.533172" y="-3.027038" z="-50.354633"/>
@@ -770,7 +770,7 @@
              glowFile="dat/LightCruiser_Glow.png"    specularFile="dat/LightCruiser_Specular.png" scale="0.2" pushRadius="50"/>
     <shields front="15" back="15" player="220"/>
     <!-- for fighters, front shield here is actually total HP-->
-    <performance turnrate="0.020" topspeed="0.4" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
+    <performance turnrate="0.020" topspeed="0.7" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
     <beam_port x="0" y="0" z="0" damage="0.2" playerdamage="1" arcwidth="0.1" cycletime="1.0" range="1000"/>
     <engine_port x="-15.533172" y="-3.027038" z="-50.354633"/>
     <engine_port x=" 15.533172" y="-3.027038" z="-50.354633"/>
@@ -786,7 +786,7 @@
              glowFile="dat/LightCruiser_Glow.png"    specularFile="dat/LightCruiser_Specular.png" scale="0.2" pushRadius="50"/>
     <shields front="10" back="15" player="220"/>
     <!-- for fighters, front shield here is actually total HP-->
-    <performance turnrate="0.020" topspeed="0.6" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
+    <performance turnrate="0.020" topspeed="1.05" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
     <beam_port x="0" y="0" z="0" damage="0.2" playerdamage="1" arcwidth="0.1" cycletime="1.0" range="1000"/>
     <engine_port x="-15.533172" y="-3.027038" z="-50.354633"/>
     <engine_port x=" 15.533172" y="-3.027038" z="-50.354633"/>
@@ -802,7 +802,7 @@
              glowFile="dat/XimniGlow.png"    specularFile="dat/XimniSpecular.png" scale="0.2" pushRadius="50"/>
     <shields front="15" back="15" player="120"/>
     <!-- for fighters, front shield here is actually total HP-->
-    <performance turnrate="0.030" topspeed="0.6" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
+    <performance turnrate="0.030" topspeed="1.05" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
     <beam_port x="0" y="0" z="0" damage="0.3" playerdamage="4" arcwidth="0.1" cycletime="1.0" range="1000"/>
     <engine_port x="0" y="13" z="-44"/>
     <engine_port x="-16" y="-10" z="-57"/>
@@ -821,7 +821,7 @@
              glowFile="dat/XimniGlow.png"    specularFile="dat/XimniSpecular.png" scale="0.2" pushRadius="50"/>
     <shields front="20" back="15" player="120"/>
     <!-- for fighters, front shield here is actually total HP-->
-    <performance turnrate="0.025" topspeed="0.5" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
+    <performance turnrate="0.025" topspeed="0.875" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
     <beam_port x="0" y="-1.95" z="72.94" damage="0.3" playerdamage="4" arcwidth="0.1" cycletime="1.0" range="1000"/>
     <engine_port x="-19.8" y="-3.8" z="-33.65"/>
     <engine_port x="-19.8" y="-3.8" z="-33.65"/>
@@ -840,7 +840,7 @@
              glowFile="dat/XimniGlow.png"    specularFile="dat/XimniSpecular.png" scale="0.2" pushRadius="50"/>
     <shields front="15" back="15" player="220"/>
     <!-- for fighters, front shield here is actually total HP-->
-    <performance turnrate="0.020" topspeed="0.4" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
+    <performance turnrate="0.020" topspeed="0.7" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
     <beam_port x="0" y="-1.95" z="72.94"   damage="0.2" playerdamage="1" arcwidth="0.1" cycletime="1.0" range="1000"/>
     <engine_port x="-19.8" y="-3.8" z="-33.65"/>
     <engine_port x="-19.8" y="-3.8" z="-33.65"/>
@@ -857,7 +857,7 @@
              glowFile="dat/XimniGlow.png"    specularFile="dat/XimniSpecular.png" scale="0.2" pushRadius="50"/>
     <shields front="10" back="15" player="220"/>
     <!-- for fighters, front shield here is actually total HP-->
-    <performance turnrate="0.020" topspeed="0.6" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
+    <performance turnrate="0.020" topspeed="1.05" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
     <beam_port x="0" y="-1.95" z="72.94"   damage="0.2" playerdamage="1" arcwidth="0.1" cycletime="1.0" range="1000"/>
     <engine_port x="-19.8" y="-3.8" z="-33.65"/>
     <engine_port x="-19.8" y="-3.8" z="-33.65"/>
@@ -874,7 +874,7 @@
              glowFile="dat/Pirate_Glow.png"    specularFile="dat/Pirate_Specular.png" scale="0.2" pushRadius="50"/>
    <shields front="25" back="15" player="120"/>
     <!-- for fighters, front shield here is actually total HP-->
-    <performance turnrate="0.02" topspeed="0.7" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
+    <performance turnrate="0.02" topspeed="1.225" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
     <beam_port x="0" y="0" z="0" damage="10.0" playerdamage="10.0" arcwidth="0.1" cycletime="5.0" range="1500"/>
     <engine_port x="-13.67" y="4.59" z="-58.62"/>
     <engine_port x=" 13.67" y="4.59" z="-58.62"/>
@@ -892,7 +892,7 @@
              glowFile="dat/Pirate_Glow.png"    specularFile="dat/Pirate_Specular.png" scale="0.2" pushRadius="50"/>
     <shields front="30" back="30" player="220"/>
     <!-- for fighters, front shield here is actually total HP-->
-    <performance turnrate="0.02" topspeed="0.6" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
+    <performance turnrate="0.02" topspeed="1.05" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
     <beam_port x="0" y="-9.58" z="33.40" damage="1.0" playerdamage="1.0" arcwidth="0.1" cycletime="0.8" range="1000"/>
     <engine_port x="-13.67" y="4.59" z="-58.62"/>
     <engine_port x=" 13.67" y="4.59" z="-58.62"/>
@@ -909,7 +909,7 @@
              glowFile="dat/Pirate_Glow.png"    specularFile="dat/Pirate_Specular.png" scale="0.2" pushRadius="50"/>
     <shields front="15" back="15" player="120"/>
     <!-- for fighters, front shield here is actually total HP-->
-    <performance turnrate="0.01" topspeed="1.1" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
+    <performance turnrate="0.01" topspeed="1.925" shipefficiency="1.0" warpefficiency="1.0" jumpefficiency="1.0"/>
    <beam_port x="0" y="0" z="0" damage="1.5" playerdamage="1.5" arcwidth="0.1" cycletime=".5" range="800"/>
     <engine_port x="-13.67" y="4.59" z="-58.62"/>
     <engine_port x=" 13.67" y="4.59" z="-58.62"/>
