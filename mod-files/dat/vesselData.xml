@@ -836,7 +836,7 @@
     <long_desc text="Ximni Long Range Shuttle^Armed only with a small laser, this shuttle is known as the Party Ride."/>
   </vessel>
   
-  <vessel    uniqueID="130"    side="8"       classname="Avenger (Bomber)" broadType="player singleseat fighter">
+  <vessel    uniqueID="130"    side="8"       classname="Avenger" broadType="player singleseat fighter">
     <art     meshfile="dat/PirateAvenger.dxs"    diffuseFile="dat/Pirate_Diffuse.png"
              glowFile="dat/Pirate_Glow.png"    specularFile="dat/Pirate_Specular.png" scale="0.2" pushRadius="50"/>
    <shields front="25" back="15" player="120"/>
@@ -854,7 +854,7 @@
     <long_desc text="Pirate Avenger^One slow-hard hitting beam, 10 homing torpedoes."/>
   </vessel>
 
-    <vessel    uniqueID="131"    side="8"       classname="Adventure (Shuttle)" broadType="player singleseat shuttle">
+    <vessel    uniqueID="131"    side="8"       classname="Adventure" broadType="player singleseat shuttle">
     <art     meshfile="dat/PirateAvenger.dxs"    diffuseFile="dat/Pirate_Diffuse.png"
              glowFile="dat/Pirate_Glow.png"    specularFile="dat/Pirate_Specular.png" scale="0.2" pushRadius="50"/>
     <shields front="30" back="30" player="220"/>
@@ -871,7 +871,7 @@
     <long_desc text="Pirate Adventure^A pirate's shuttle.^One beam."/>
   </vessel>
   
-      <vessel    uniqueID="132"    side="8"       classname="Stalker (Fighter)" broadType="player singleseat fighter">
+      <vessel    uniqueID="132"    side="8"       classname="Stalker" broadType="player singleseat fighter">
      <art     meshfile="dat/PirateAvenger.dxs"    diffuseFile="dat/Pirate_Diffuse.png"
              glowFile="dat/Pirate_Glow.png"    specularFile="dat/Pirate_Specular.png" scale="0.2" pushRadius="50"/>
     <shields front="15" back="15" player="120"/>
