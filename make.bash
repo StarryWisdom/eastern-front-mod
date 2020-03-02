@@ -28,6 +28,9 @@ check_and_create () {
 	check_tmp
 	create_zip "`basename "$1"`"
 
+	version=`cat "$old_dir/src/version"`
+	convert "$old_dir/src/logo512.png" -gravity North -pointsize 45 -fill white -annotate +200+100 "$version" "EF MOD/dat/logo512.png"
+
 	cd "$old_dir"
 }
 
