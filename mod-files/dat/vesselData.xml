@@ -1028,6 +1028,16 @@
     <long_desc text="Skaraan Starbase. It has powerful shields, and two base beams."/>
   </vessel>
 
+  <vessel    uniqueID="1009"    side="9"       classname="Base" broadType="base">
+    <art     meshfile="dat/skaraan-station.dxs"    diffuseFile="dat/skaraan_station_color.png"
+             glowFile="dat/skaraan_station_glow.png"    specularFile="dat/skaraan_station_spec.png" scale="0.3" pushRadius="250"/>
+    <shields front="1000" back="0"/>
+    <!-- the base has only one shield facing, the "front" -->
+    <beam_port x="0" y="300" z="0" damage="70" arcwidth="0.4" cycletime="60.0" range="3000"/>
+    <beam_port x="0" y="-200" z="0" damage="0.5" arcwidth="0.4" cycletime="0.5" range="1000"/>
+    <long_desc text="Unknown Starbase."/>
+  </vessel>
+
 
   <!-- ****************************** CIVILIAN VESSELS **************************************** -->
 
